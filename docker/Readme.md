@@ -8,7 +8,7 @@ In simple words, you can understand as `containerization is a concept or technol
 
 ### Docker Architecture ?
 
-![Image1](https://user-images.githubusercontent.com/43399466/217507877-212d3a60-143a-4a1d-ab79-4bb615cb4622.png)
+![Image1](https://private-user-images.githubusercontent.com/43340091/486848771-c9dd4564-814a-40a0-9efd-46d63aec3503.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTczNDgzNDQsIm5iZiI6MTc1NzM0ODA0NCwicGF0aCI6Ii80MzM0MDA5MS80ODY4NDg3NzEtYzlkZDQ1NjQtODE0YS00MGEwLTllZmQtNDZkNjNhZWMzNTAzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA4VDE2MTQwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU4YTdiNjA3YzQ3M2MyN2FjMjkzMmQ4MWM5NGUwMzgzYzk5NWMyNzhlMDFlNTA4YzRhYjYzMDViN2VlZDdjYjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.eMIDMYKbjXNwACOBfBLkCdgR0WWk_X_PTjpQqy6yT5A)
 
 
 The above picture, clearly indicates that Docker Deamon is brain of Docker. If Docker Deamon is killed, stops working for some reasons, Docker is brain dead :p (sarcasm intended).
