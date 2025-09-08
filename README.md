@@ -195,7 +195,7 @@ docker logs -f <container_id_or_name>
 docker restart my-container
 ```
 
-** Paused : In the "paused" state, all processes inside the container are suspended. This is useful for temporarily halting a container without stopping it completely.**
+**Paused : In the "paused" state, all processes inside the container are suspended. This is useful for temporarily halting a container without stopping it completely.**
 Pause a container:
 ```bash
 docker pause my-container
