@@ -1,0 +1,15 @@
+#General
+*.log
+*.bak
+*.tmp
+.DS_Store
+.env
+#Python
+__pycache__/
+*.pyc
+venv/
+#Node
+node_modules/
+#References
+Docker-Zero-to-Hero/
+second-django-web-app/

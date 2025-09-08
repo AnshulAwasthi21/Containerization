@@ -1,0 +1,11 @@
+.git
+.gitignore
+__pycache__/
+*.pyc
+*.log
+.env
+node_modules/
+venv/
+#References
+Docker-Zero-to-Hero/
+second-django-web-app/
