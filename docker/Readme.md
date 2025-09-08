@@ -8,7 +8,7 @@ In simple words, you can understand as `containerization is a concept or technol
 
 ### Docker Architecture ?
 
-![Image1](https://private-user-images.githubusercontent.com/43340091/486848771-c9dd4564-814a-40a0-9efd-46d63aec3503.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTczNDgzNDQsIm5iZiI6MTc1NzM0ODA0NCwicGF0aCI6Ii80MzM0MDA5MS80ODY4NDg3NzEtYzlkZDQ1NjQtODE0YS00MGEwLTllZmQtNDZkNjNhZWMzNTAzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA4VDE2MTQwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU4YTdiNjA3YzQ3M2MyN2FjMjkzMmQ4MWM5NGUwMzgzYzk5NWMyNzhlMDFlNTA4YzRhYjYzMDViN2VlZDdjYjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.eMIDMYKbjXNwACOBfBLkCdgR0WWk_X_PTjpQqy6yT5A)
+![Image1](https://docs.docker.com/get-started/images/docker-architecture.webp)
 
 
 The above picture, clearly indicates that Docker Deamon is brain of Docker. If Docker Deamon is killed, stops working for some reasons, Docker is brain dead :p (sarcasm intended).
@@ -17,14 +17,15 @@ The above picture, clearly indicates that Docker Deamon is brain of Docker. If D
 
 We can use the above Image as reference to understand the lifecycle of Docker.
 
-There are three important things,
+There are three important things:-
 
 1. docker build -> builds docker images from Dockerfile
 2. docker run   -> runs container from docker images
 3. docker push  -> push the container image to public/private regestries to share the docker images.
 
 
-![Image2](https://private-user-images.githubusercontent.com/43340091/486848773-88a1f405-03f9-4079-8934-90b5290f1b4a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTczNDgyMDcsIm5iZiI6MTc1NzM0NzkwNywicGF0aCI6Ii80MzM0MDA5MS80ODY4NDg3NzMtODhhMWY0MDUtMDNmOS00MDc5LTg5MzQtOTBiNTI5MGYxYjRhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA4VDE2MTE0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI2ZWFkNzJiMTZkNTZkNzI2NWFhMTM2OWI4NDZiYzQ1YWVkMDMyOWM3MzY0YmY3YmEzNmEyMGE4ZTZiOGZlYmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QGv_mYdrgkgj46WrlGchxuny0yseE43wJqTnXbJV9Uc)
+
+![Image2](https://miro.medium.com/v2/resize:fit:1100/1*iMBaWHvUPCHHa3OMHx0Q4w.png)
 
 ### Understanding the terminology (Inspired from Docker Docs)
 
