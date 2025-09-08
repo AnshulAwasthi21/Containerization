@@ -8,7 +8,7 @@ A container is a standard unit of software that packages up code and all its dep
 
 A container is a bundle of Application, app libraries required to run your application with minimum system dependencies.
 
-<img width="1285" height="545" alt="Image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/43340091/486848774-d504cd34-bae8-41ce-b389-4a1e0c92d892.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250908T160054Z&X-Amz-Expires=300&X-Amz-Signature=5ee7e71e53bfe6e4f54e242ff8435c52363e085b4453be10d16ffc004fdc3b99&X-Amz-SignedHeaders=host" />
+![Image1](https://user-images.githubusercontent.com/43399466/217262726-7cabcb5b-074d-45cc-950e-84f7119e7162.png)
 
 
 ## Containers vs Virtual Machine 
@@ -33,7 +33,7 @@ Let's try to understand this with an example:
 
 Below is the screenshot of official ubuntu base image which you can use for your container. It's just ~ 22 MB, isn't it very small ? on a contrary if you look at official ubuntu VM image it will be close to ~ 2.3 GB. So the container base image is almost 100 times less than VM image.
 
-![Image](https://user-images.githubusercontent.com/43399466/217493284-85411ae0-b283-4475-9729-6b082e35fc7d.png)
+![Image2](https://user-images.githubusercontent.com/43399466/217493284-85411ae0-b283-4475-9729-6b082e35fc7d.png)
 
 
 To provide a better picture of files and folders that containers base images have and files and folders that containers use from host operating system (not 100 percent accurate -> varies from base image to base image). Refer below.

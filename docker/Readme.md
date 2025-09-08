@@ -8,7 +8,7 @@ In simple words, you can understand as `containerization is a concept or technol
 
 ### Docker Architecture ?
 
-![Image](https://github-production-user-asset-6210df.s3.amazonaws.com/43340091/486848772-dcb1d144-55b9-4211-a433-0d84df369f47.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250908T155436Z&X-Amz-Expires=300&X-Amz-Signature=5a238bb853a01b0bfe54b889f37a63575cf47569e815f98659d89703299aab0e&X-Amz-SignedHeaders=host)
+![Image1](https://user-images.githubusercontent.com/43399466/217507877-212d3a60-143a-4a1d-ab79-4bb615cb4622.png)
 
 
 The above picture, clearly indicates that Docker Deamon is brain of Docker. If Docker Deamon is killed, stops working for some reasons, Docker is brain dead :p (sarcasm intended).
@@ -24,7 +24,7 @@ There are three important things,
 3. docker push  -> push the container image to public/private regestries to share the docker images.
 
 
-<img width="1589" height="656" alt="Image" src="https://github-production-user-asset-6210df.s3.amazonaws.com/43340091/486848773-88a1f405-03f9-4079-8934-90b5290f1b4a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250908%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250908T155657Z&X-Amz-Expires=300&X-Amz-Signature=c9b86c09f1b2a300f1877c90f2e5d0fb584d8129c184f7960750307290929b90&X-Amz-SignedHeaders=host" />
+![Image2](https://private-user-images.githubusercontent.com/43340091/486848773-88a1f405-03f9-4079-8934-90b5290f1b4a.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTczNDgyMDcsIm5iZiI6MTc1NzM0NzkwNywicGF0aCI6Ii80MzM0MDA5MS80ODY4NDg3NzMtODhhMWY0MDUtMDNmOS00MDc5LTg5MzQtOTBiNTI5MGYxYjRhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA5MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwOTA4VDE2MTE0N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI2ZWFkNzJiMTZkNTZkNzI2NWFhMTM2OWI4NDZiYzQ1YWVkMDMyOWM3MzY0YmY3YmEzNmEyMGE4ZTZiOGZlYmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QGv_mYdrgkgj46WrlGchxuny0yseE43wJqTnXbJV9Uc)
 
 ### Understanding the terminology (Inspired from Docker Docs)
 
