@@ -77,10 +77,12 @@ pip install -r requirements.txt
 
 ### 5) Ignore Files
 
-Keep a root .gitignore for global dev artefacts (e.g., __pycache__/, *.log, venv/, node_modules/, .env).
+* Keep a root .gitignore for global dev artefacts (e.g., __pycache__/, *.log, venv/, node_modules/, .env).
 
-Keep a per-context .dockerignore next to each Dockerfile to keep images small:
+* Keep a per-context .dockerignore next to each Dockerfile to keep images small:
 
+<hr>
+<hr>
 
 ## Helpful Docker Commands (Cheatsheet)
 
